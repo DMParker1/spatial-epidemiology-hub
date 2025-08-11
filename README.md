@@ -111,11 +111,8 @@ flowchart TB
   EDT -. Early Dx/TX model .-> METF
   MCH -. Records + context .-> METF
 
-flowchart LR
-  A[Solid line] --> B[Structure / ownership]
-  C[Dashed blue] -. Historical / method influence .-> D[Influence]
-
   %% style dashed influence edges (light blue)
+  %% NOTE: link indexes are zero-based; with the links above, dashed edges are 23–29.
   linkStyle 23 stroke:#4DA3FF,stroke-width:2px,stroke-dasharray:5 5;
   linkStyle 24 stroke:#4DA3FF,stroke-width:2px,stroke-dasharray:5 5;
   linkStyle 25 stroke:#4DA3FF,stroke-width:2px,stroke-dasharray:5 5;
