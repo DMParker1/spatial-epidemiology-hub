@@ -93,12 +93,6 @@ flowchart TB
 
 ```
 
-```mermaid
-flowchart LR
-  A[Solid line] --> B[Current relationship]
-  C[Dashed line] -.-> D[Past influence]
-```
-
 ---
 
 ## 🔗 Related Repositories
