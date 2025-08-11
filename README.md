@@ -99,17 +99,23 @@ flowchart LR
   EDT --> PG
   MCH --> PG
 
-  %% historical/methodological influence (light blue dashed)
-  EO -.-> METF:::hist
-  EO -.-> MCH:::hist
-  SDE -.-> MCH:::hist
-  EDT -.-> tMDA:::hist
-  tMDA -.-> METF:::hist
-  EDT -.-> METF:::hist
-  MCH -.-> METF:::hist
+  %% historical/methodological influence (dashed arrows)
+  EO -.-> METF
+  EO -.-> MCH
+  SDE -.-> MCH
+  EDT -.-> tMDA
+  tMDA -.-> METF
+  EDT -.-> METF
+  MCH -.-> METF
 
-  classDef hist stroke:#4DA3FF,stroke-width:2px,stroke-dasharray: 5 5;
-
+  %% style the dashed arrows (light blue)
+  linkStyle 20 stroke:#4DA3FF,stroke-width:2px,stroke-dasharray:5 5;
+  linkStyle 21 stroke:#4DA3FF,stroke-width:2px,stroke-dasharray:5 5;
+  linkStyle 22 stroke:#4DA3FF,stroke-width:2px,stroke-dasharray:5 5;
+  linkStyle 23 stroke:#4DA3FF,stroke-width:2px,stroke-dasharray:5 5;
+  linkStyle 24 stroke:#4DA3FF,stroke-width:2px,stroke-dasharray:5 5;
+  linkStyle 25 stroke:#4DA3FF,stroke-width:2px,stroke-dasharray:5 5;
+  linkStyle 26 stroke:#4DA3FF,stroke-width:2px,stroke-dasharray:5 5;
 
 ```
 
