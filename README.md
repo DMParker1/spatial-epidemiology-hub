@@ -38,25 +38,14 @@ For a complete, living catalog see the **[Public Overview](https://github.com/pa
 ## 🗺 Visual: Project Constellation
 
 ```mermaid
-%%{init: {'theme':'base','themeVariables': {
-  'background':        '#FAFAFA',
-  'fontFamily':        'Inter, Segoe UI, Arial, sans-serif',
-  'fontSize':          '14px',
-
-  /* subgraph (group) boxes */
-  'clusterBkg':        '#F3F4F6',   /* gray-100 */
-  'clusterBorder':     '#E5E7EB',   /* gray-200 */
-  'clusterTextColor':  '#111827',   /* near-black */
-
-  /* nodes */
-  'primaryColor':        '#E8F5E9', /* light green */
-  'primaryBorderColor':  '#2E7D32', /* deep green */
-  'primaryTextColor':    '#0F172A', /* slate-900 */
-  'nodeBorderRadius':    '8px',
-
-  /* edges */
-  'lineColor':         '#9CA3AF',   /* gray-400 */
-  'edgeLabelBackground':'#FFFFFF'
+%%{init: {"theme":"base","themeVariables":{
+  "background":"#FAFAFA",
+  "clusterBkg":"#F3F4F6",
+  "clusterBorder":"#E5E7EB",
+  "primaryColor":"#E8F5E9",
+  "primaryBorderColor":"#2E7D32",
+  "primaryTextColor":"#0F172A",
+  "lineColor":"#9CA3AF"
 }}}%%
 flowchart LR
   subgraph A[Foundations]
@@ -79,7 +68,6 @@ flowchart LR
     PG["Parker Group (org)"]
   end
 
-  /* umbrella links */
   GIS --> METF
   GIS --> tMDA
   GIS --> EDT
@@ -88,13 +76,11 @@ flowchart LR
   GIS --> SDE
   GIS --> PG
 
-  /* project interlinks (kept subtle via global edge color) */
   METF --- tMDA
   EDT --- tMDA
   METF --- MCH
   EO --- SDE
 
-  /* convergence */
   EO --> PG
   SDE --> PG
   METF --> PG
