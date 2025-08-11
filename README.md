@@ -88,7 +88,7 @@ flowchart TB
   EO --- SDE
   EO --- HUM
   EO --- RBE
-  METF --- tMDA
+  tMDA --- METF
   EDT --- METF
   MCH --- METF
 
