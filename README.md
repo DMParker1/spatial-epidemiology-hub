@@ -1,5 +1,7 @@
 # Spatial Epidemiology Hub — Daniel M. Parker
 
+[![Release](https://img.shields.io/github/v/release/DMParker1/spatial-epidemiology-hub)](../../releases)
+
 This is my personal umbrella repository tying together projects, tools, and collaborations in **GIS** and **spatial epidemiology**.  
 It’s both a **map of my career so far** and a **pointer to where my current and future work is headed**.
 
@@ -37,9 +39,7 @@ For a complete, living catalog see the **[Public Overview](https://github.com/pa
 
 ```mermaid
 flowchart LR
-  %% Phases as subgraphs
   subgraph A[Foundations]
-    direction TB
     METF["METF-mapping"]
     EDT["early-dx-tx"]
     MCH["tm-border-mch"]
@@ -47,7 +47,6 @@ flowchart LR
   end
 
   subgraph B[Expanding Methods]
-    direction TB
     EO["Earth Observation Hub"]
     SDE["SDEtool"]
   end
@@ -60,7 +59,6 @@ flowchart LR
     PG["Parker Group (org)"]
   end
 
-  %% Umbrella links
   GIS --> METF
   GIS --> tMDA
   GIS --> EDT
@@ -69,13 +67,11 @@ flowchart LR
   GIS --> SDE
   GIS --> PG
 
-  %% Project interlinks
   METF --- tMDA
   EDT --- tMDA
   METF --- MCH
   EO --- SDE
 
-  %% Converge into Parker Group
   EO --> PG
   SDE --> PG
   METF --> PG
