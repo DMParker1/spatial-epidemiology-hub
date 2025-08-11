@@ -39,6 +39,9 @@ For a complete, living catalog see the **[Public Overview](https://github.com/pa
 
 ```mermaid
 flowchart LR
+  %% Set background color for the whole chart
+  classDef chart fill:#f5f5f5;
+
   subgraph A[Foundations]
     METF["METF-mapping"]
     EDT["early-dx-tx"]
@@ -78,6 +81,12 @@ flowchart LR
   tMDA --> PG
   EDT --> PG
   MCH --> PG
+
+  %% Define light green box style
+  classDef greenBox fill:#d9f2d9,stroke:#2e8b57,stroke-width:1px,color:#000;
+
+  %% Apply to all nodes
+  class METF,EDT,MCH,tMDA,EO,SDE,GIS,PG greenBox;
 ```
 
 ---
