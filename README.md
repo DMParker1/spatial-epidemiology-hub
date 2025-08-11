@@ -121,7 +121,12 @@ flowchart TB
   linkStyle 28 stroke:#4DA3FF,stroke-width:2px,stroke-dasharray:5 5;
   linkStyle 29 stroke:#4DA3FF,stroke-width:2px,stroke-dasharray:5 5;
 ```
+flowchart LR
+  A[Solid line] --> B[Structure / ownership]
+  C[Dashed blue] -. Historical / method influence .-> D[Influence]
 
+  %% style the dashed legend edge (index 1 in this tiny diagram)
+  linkStyle 1 stroke:#4DA3FF,stroke-width:2px,stroke-dasharray:5 5;
 ---
 
 ## 🔗 Related Repositories
