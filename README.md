@@ -27,12 +27,17 @@ Working at the intersection of epidemiology, vector-borne disease control, clima
 - [early-dx-tx](https://github.com/DMParker1/early-dx-tx) — Early access to malaria diagnosis and treatment.  
 - [tm-border-mch](https://github.com/DMParker1/tm-border-mch) — Maternal and child health research on the Thailand–Myanmar border.
 
+### 4. **Current & Future Directions** — Parker Group
+Most of my active and upcoming work happens within the **[Parker Group](https://github.com/parker-group)**, where we build open tools and curate datasets.  
+For a complete, living catalog see the **[Public Overview](https://github.com/parker-group/public-overview)**.
+
 ---
 
 ## 🗺 Visual: Project Constellation
 
 ```mermaid
 graph TD
+  %% Nodes
   GIS[spatial-epidemiology-hub]
   METF[METF-mapping]
   tMDA[tMDA-program]
@@ -40,18 +45,30 @@ graph TD
   MCH[tm-border-mch]
   EO[Earth Observation Hub]
   SDE[SDEtool]
+  PG[Parker Group (org)]
 
+  %% Umbrella links
   GIS --> METF
   GIS --> tMDA
   GIS --> EDT
   GIS --> MCH
   GIS --> EO
   GIS --> SDE
+  GIS --> PG
 
+  %% Project interlinks
   METF --- tMDA
   EDT --- tMDA
   METF --- MCH
   EO --- SDE
+
+  %% Where things converge now
+  EO --> PG
+  SDE --> PG
+  METF --> PG
+  tMDA --> PG
+  EDT --> PG
+  MCH --> PG
 ```
 
 ---
