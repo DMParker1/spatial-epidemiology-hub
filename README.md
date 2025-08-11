@@ -11,15 +11,15 @@ Most of my active research is now organized under the [**Parker Group organizati
 ## 🌍 Career Arc & Project Constellation
 
 ### 1. **Foundations** — Field epidemiology & GIS
-Early work combining field research, geography (especially geographic reconnaissance) anthropology (ethnography and participant observation), and spatial analyses to understand health and disease in complex settings.
+Early work combining field research, geography (especially geographic reconnaissance), anthropology (ethnography and participant observation), and spatial analyses to understand health and disease in complex settings.
 
-### 2. **Expanding Methods** — Earth observation, activity space and movement analysis, & spatial modeling
-Incorporating **Earth observation**, **human movement studies**, **spatiotemporal analysis**, and tool development to answer new public health questions.
+### 2. **Expanding Methods** — Earth Observation, activity space and movement analysis, & spatial modeling
+Incorporating **Earth Observation**, **human movement studies**, **spatiotemporal analysis**, and tool development to answer new public health questions.
 
 - [SDEtool](https://github.com/parker-group/SDEtool) — Our in-house R package for generating standard deviational ellipses.  
 - [earth-observation-hub](https://github.com/DMParker1/earth-observation-hub) — Remote sensing methods applied to health and environment.  
 - [HumMovPatt](https://github.com/SaiTheinThanTun/HumMovPatt) — Human movement & exposure buffer size selection (DOI: [10.12688/wellcomeopenres.16784.2](https://doi.org/10.12688/wellcomeopenres.16784.2)).  
-- **Raster-Buffer Extractor** — Helper functions to extract **time-series** environmental values from **raster stacks** within **user-defined buffers** around GPS points ([helper functions](https://github.com/CatalinaMedina/aedes-serology/tree/main/helper-functions)).
+- **Raster-Buffer Extractor** — Helper functions to extract **time-series** environmental values from **raster stacks** within **user-defined buffers** around GPS points ([helper functions](https://github.com/CatalinaMedina/aedes-serology/tree/main/helper-functions), DOI: [10.1016/j.actatropica.2023.106829](https://doi.org/10.1016/j.actatropica.2023.106829)).
 
 ### 3. **Interdisciplinary Collaborations**
 Working at the intersection of epidemiology, vector-borne disease control, climate, and health systems — often in challenging borderland and displacement contexts.
@@ -96,7 +96,7 @@ flowchart TB
 
 ```
 
-*Solid lines show the current structure. The timeline and matrix below capture sequence and method usage.*
+*Solid lines show the current structure. The timeline below captures sequence and method usage. The highlighted node marks the group I founded in 2017.*
 
 ---
 
@@ -127,7 +127,6 @@ flowchart TB
 > “EDT” = early-dx-tx.
 -->
 
----
 
 ## 🔗 Related Repositories
 
