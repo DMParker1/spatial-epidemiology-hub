@@ -124,12 +124,12 @@ flowchart TB
 
 ```mermaid
 flowchart LR
-  subgraph Legend
-    S[Structural link (solid)] --> O[Current relationship]
-    H[Historical/method link (dashed blue)] -.-> I[Past influence]
-  end
-  %% style the dashed legend edge (index 1 in this tiny diagram)
-  linkStyle 1 stroke:#4DA3FF,stroke-width:2px,stroke-dasharray:5 5;
+  A[Solid line] --> B[Current relationship]
+  C[Dashed blue] -.-> D[Past influence]
+
+  %% Explicitly style both legend edges
+  linkStyle 0 stroke:#9CA3AF,stroke-width:2px;                 %% solid example (gray)
+  linkStyle 1 stroke:#4DA3FF,stroke-width:2px,stroke-dasharray:5 5;  %% dashed example (light blue)
 ```
 
 ---
