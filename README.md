@@ -39,16 +39,11 @@ For a complete, living catalog see the **[Public Overview](https://github.com/pa
 
 ```mermaid
 %%{init: {"theme":"base","themeVariables":{
-  "background":"#FAFAFA",
-  "clusterBkg":"#F3F4F6",
-  "clusterBorder":"#E5E7EB",
-  "primaryColor":"#E8F5E9",
-  "primaryBorderColor":"#2E7D32",
-  "primaryTextColor":"#0F172A",
-  "lineColor":"#9CA3AF"
+  "background":"#FAFAFA","clusterBkg":"#F3F4F6","clusterBorder":"#E5E7EB",
+  "primaryColor":"#E8F5E9","primaryBorderColor":"#2E7D32",
+  "primaryTextColor":"#0F172A","lineColor":"#9CA3AF"
 }, "flowchart":{"rankSpacing":45,"nodeSpacing":30}}}%%
 flowchart TB
-
   subgraph A[Foundations]
     direction LR
     EDT["early-dx-tx"]
@@ -56,7 +51,6 @@ flowchart TB
     MCH["tm-border-mch"]
     METF["METF-mapping"]
   end
-
   subgraph B[Expanding Methods]
     direction LR
     EO["Earth Observation Hub"]
@@ -64,16 +58,14 @@ flowchart TB
     HUM["HumMovPatt"]
     RBE["Raster-Buffer Extractor"]
   end
-
   subgraph C[Umbrella]
     GIS["spatial-epidemiology-hub"]
   end
-
   subgraph D[Current & Future]
     PG["Parker Group (org)"]
   end
 
-  %% umbrella links (solid)
+  %% Umbrella (solid, present)
   GIS --> EDT
   GIS --> tMDA
   GIS --> MCH
@@ -84,15 +76,12 @@ flowchart TB
   GIS --> RBE
   GIS --> PG
 
-  %% method/theme crosslinks (solid)
+  %% Current method interplay (solid, present)
   EO --- SDE
   EO --- HUM
   EO --- RBE
-  tMDA --- METF
-  EDT --- METF
-  MCH --- METF
 
-  %% convergence to Parker Group (solid)
+  %% Present convergence to Parker Group (solid)
   EO --> PG
   SDE --> PG
   HUM --> PG
@@ -102,24 +91,6 @@ flowchart TB
   EDT --> PG
   MCH --> PG
 
-  %% historical/methodological influence (dashed with labels)
-  EO -. EO data .-> METF
-  EO -. EO data .-> MCH
-  SDE -. SDE methods .-> MCH
-  EDT -. Evidence base .-> tMDA
-  tMDA -. MDA trial design .-> METF
-  EDT -. Early Dx/TX model .-> METF
-  MCH -. Records + context .-> METF
-
-  %% style dashed influence edges (light blue)
-  %% NOTE: link indexes are zero-based; with the links above, dashed edges are 23–29.
-  linkStyle 23 stroke:#4DA3FF,stroke-width:2px,stroke-dasharray:5 5;
-  linkStyle 24 stroke:#4DA3FF,stroke-width:2px,stroke-dasharray:5 5;
-  linkStyle 25 stroke:#4DA3FF,stroke-width:2px,stroke-dasharray:5 5;
-  linkStyle 26 stroke:#4DA3FF,stroke-width:2px,stroke-dasharray:5 5;
-  linkStyle 27 stroke:#4DA3FF,stroke-width:2px,stroke-dasharray:5 5;
-  linkStyle 28 stroke:#4DA3FF,stroke-width:2px,stroke-dasharray:5 5;
-  linkStyle 29 stroke:#4DA3FF,stroke-width:2px,stroke-dasharray:5 5;
 ```
 
 ```mermaid
