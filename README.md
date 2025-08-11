@@ -88,7 +88,7 @@ flowchart LR
   EO --- RBE
   METF --- tMDA
   EDT --- tMDA
-  MCH --- METF
+  METF --- MCH
 
   %% convergence to Parker Group (solid)
   EO --> PG
@@ -108,6 +108,7 @@ flowchart LR
   tMDA -. MDA trial design .-> METF
   EDT -. Early Dx/TX model .-> METF
   MCH -. Records + context .-> METF
+
 ```
 
 ---
