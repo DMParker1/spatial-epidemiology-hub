@@ -39,29 +39,36 @@ For a complete, living catalog see the **[Public Overview](https://github.com/pa
 
 ```mermaid
 flowchart LR
-  %% Set background color for the whole chart
-  classDef chart fill:#f5f5f5;
+  %% Light green style for nodes
+  classDef greenBox fill:#d9f2d9,stroke:#2e8b57,stroke-width:1px,color:#000;
 
-  subgraph A[Foundations]
-    METF["METF-mapping"]
-    EDT["early-dx-tx"]
-    MCH["tm-border-mch"]
-    tMDA["tMDA-program"]
-  end
+  %% Headings as dummy text nodes (not connected)
+  A[Foundations]
+  B[Expanding Methods]
+  C[Umbrella]
+  D[Current & Future]
 
-  subgraph B[Expanding Methods]
-    EO["Earth Observation Hub"]
-    SDE["SDEtool"]
-  end
+  %% Real nodes
+  METF["METF-mapping"]
+  EDT["early-dx-tx"]
+  MCH["tm-border-mch"]
+  tMDA["tMDA-program"]
+  EO["Earth Observation Hub"]
+  SDE["SDEtool"]
+  GIS["spatial-epidemiology-hub"]
+  PG["Parker Group (org)"]
 
-  subgraph C[Umbrella]
-    GIS["spatial-epidemiology-hub"]
-  end
+  %% Layout (place headings above their group)
+  A --> METF
+  A --> EDT
+  A --> MCH
+  A --> tMDA
+  B --> EO
+  B --> SDE
+  C --> GIS
+  D --> PG
 
-  subgraph D[Current & Future]
-    PG["Parker Group (org)"]
-  end
-
+  %% Project connections
   GIS --> METF
   GIS --> tMDA
   GIS --> EDT
@@ -82,10 +89,7 @@ flowchart LR
   EDT --> PG
   MCH --> PG
 
-  %% Define light green box style
-  classDef greenBox fill:#d9f2d9,stroke:#2e8b57,stroke-width:1px,color:#000;
-
-  %% Apply to all nodes
+  %% Apply green style to all nodes
   class METF,EDT,MCH,tMDA,EO,SDE,GIS,PG greenBox;
 ```
 
