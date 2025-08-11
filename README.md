@@ -89,7 +89,7 @@ flowchart TB
   EO --- HUM
   EO --- RBE
   METF --- tMDA
-  EDT --- tMDA
+  EDT --- METF
   MCH --- METF
 
   %% convergence to Parker Group (solid)
