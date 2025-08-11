@@ -70,7 +70,7 @@ flowchart LR
     PG["Parker Group (org)"]
   end
 
-  %% umbrella links
+  %% umbrella links (solid)
   GIS --> METF
   GIS --> tMDA
   GIS --> EDT
@@ -81,7 +81,7 @@ flowchart LR
   GIS --> RBE
   GIS --> PG
 
-  %% method/theme crosslinks
+  %% method/theme crosslinks (solid)
   EO --- SDE
   EO --- HUM
   EO --- RBE
@@ -89,7 +89,7 @@ flowchart LR
   EDT --- tMDA
   METF --- MCH
 
-  %% convergence
+  %% convergence to Parker Group (solid)
   EO --> PG
   SDE --> PG
   HUM --> PG
@@ -98,6 +98,15 @@ flowchart LR
   tMDA --> PG
   EDT --> PG
   MCH --> PG
+
+  %% historical/methodological influence (dashed arrows)
+  EO -.-> METF
+  EO -.-> MCH
+  SDE -.-> MCH
+  EDT -.-> tMDA
+  tMDA -.-> METF
+  EDT -.-> METF
+  MCH -.-> METF
 
 ```
 
