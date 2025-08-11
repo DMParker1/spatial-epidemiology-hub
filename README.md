@@ -96,8 +96,6 @@ flowchart TB
 
 ```
 
----
-
 *Solid lines show the current structure. The timeline and matrix below capture sequence and method usage.*
 
 ---
@@ -116,16 +114,18 @@ flowchart TB
 
 ---
 
+<!--
 ## 🧪 Methods ↔ Projects matrix (present links)
 
-| Methods → Projects        | METF | MCH | tMDA | EDT |
-|---------------------------|:----:|:---:|:----:|:---:|
-| **Earth Observation (EO)**|  ✔️  | ✔️  |      |     |
-| **SDEtool (SDE)**         |      | ✔️  |      |     |
-| **HumMovPatt**            |      |     |      |     |
-| **Raster-Buffer Extractor**|     |     |      |     |
+| Methods → Projects | METF | MCH | tMDA | EDT |
+|---|:--:|:--:|:--:|:--:|
+| **Earth Observation (EO)** | ✔️ | ✔️ |  |  |
+| **SDEtool (SDE)** |  | ✔️ |  |  |
+| **HumMovPatt** |  |  |  |  |
+| **Raster-Buffer Extractor** |  |  |  |  |
 
-> Adjust checks as you see fit. “EDT” = early-dx-tx.
+> “EDT” = early-dx-tx.
+-->
 
 ---
 
