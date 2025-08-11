@@ -62,7 +62,7 @@ flowchart TB
     GIS["spatial-epidemiology-hub"]
   end
   subgraph D[Current & Future]
-    PG["Parker Group (org)\n— founded YYYY —"]:::pg
+    PG["Parker Group (org)\n— founded 2017 —"]:::pg
   end
 
   %% Umbrella (solid, present)
