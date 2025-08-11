@@ -36,18 +36,16 @@ For a complete, living catalog see the **[Public Overview](https://github.com/pa
 ## 🗺 Visual: Project Constellation
 
 ```mermaid
-graph TD
-  %% Nodes
-  GIS[spatial-epidemiology-hub]
-  METF[METF-mapping]
-  tMDA[tMDA-program]
-  EDT[early-dx-tx]
-  MCH[tm-border-mch]
-  EO[Earth Observation Hub]
-  SDE[SDEtool]
-  PG[Parker Group (org)]
+flowchart TD
+  GIS["spatial-epidemiology-hub"]
+  METF["METF-mapping"]
+  tMDA["tMDA-program"]
+  EDT["early-dx-tx"]
+  MCH["tm-border-mch"]
+  EO["Earth Observation Hub"]
+  SDE["SDEtool"]
+  PG["Parker Group (org)"]
 
-  %% Umbrella links
   GIS --> METF
   GIS --> tMDA
   GIS --> EDT
@@ -56,13 +54,11 @@ graph TD
   GIS --> SDE
   GIS --> PG
 
-  %% Project interlinks
   METF --- tMDA
   EDT --- tMDA
   METF --- MCH
   EO --- SDE
 
-  %% Where things converge now
   EO --> PG
   SDE --> PG
   METF --> PG
