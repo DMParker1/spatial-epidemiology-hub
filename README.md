@@ -2,20 +2,18 @@
 
 [![Release](https://img.shields.io/github/v/release/DMParker1/spatial-epidemiology-hub)](../../releases)
 
-This is my personal umbrella repository tying together projects, tools, and collaborations in **GIS** and **spatial epidemiology**.  
-It’s both a **map of my career so far** and a **pointer to where my current and future work is headed**.
+This is my personal umbrella repository tying together projects, tools, and collaborations in GIS, spatial epidemiology, and public health. It is both a **map of my career so far** and a **pointer to where my current and future work is headed**.
 
-Most of my active research is now organized under the [**Parker Group organization**](https://github.com/parker-group), where we develop and share open spatial analysis tools and datasets.  
-For a complete picture of our group’s work, see the [**Public Overview**](https://github.com/parker-group/public-overview).
+Most of my active research is now organized under the [**Parker Group organization**](https://github.com/parker-group), where we develop and share open spatial analysis tools and datasets. For a complete picture of our group’s work, see the [**Public Overview**](https://github.com/parker-group/public-overview).
 
 ---
 
 ## 🌍 Career Arc & Project Constellation
 
 ### 1. **Foundations** — Field epidemiology & GIS
-Early work combining field research, anthropology, and spatial analysis to understand health and disease in complex settings.
+Early work combining field research, geography (especially geographic reconnaissance) anthropology (ethnography and participant observation), and spatial analyses to understand health and disease in complex settings.
 
-### 2. **Expanding Methods** — Remote sensing, movement analysis & spatial modeling
+### 2. **Expanding Methods** — Earth observation, activity space and movement analysis, & spatial modeling
 Incorporating **Earth observation**, **human movement studies**, **spatiotemporal analysis**, and tool development to answer new public health questions.
 
 - [SDEtool](https://github.com/parker-group/SDEtool) — Our in-house R package for generating standard deviational ellipses.  
