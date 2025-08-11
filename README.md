@@ -88,7 +88,7 @@ flowchart LR
   EO --- RBE
   METF --- tMDA
   EDT --- tMDA
-  METF --- MCH
+  MCH --- METF
 
   %% convergence to Parker Group (solid)
   EO --> PG
