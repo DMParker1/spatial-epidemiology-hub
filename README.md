@@ -1,6 +1,6 @@
 # GIS & Spatial Epidemiology Hub
 
-This repository is a **minimal umbrella** that maps how my projects connect through GIS and spatial analysis. Earth observation is one component within this broader geospatial toolkit.
+This repository is a minimal umbrella that maps how my career and projects connect through GIS and spatial analysis. 
 
 ---
 
