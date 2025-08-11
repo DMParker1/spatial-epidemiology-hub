@@ -5,25 +5,26 @@
 This is my personal umbrella repository tying together projects, tools, and collaborations in **GIS** and **spatial epidemiology**.  
 It’s both a **map of my career so far** and a **pointer to where my current and future work is headed**.
 
-Most of my active research is now organized under the [**Parker Group organization**](https://github.com/parker-group), where we develop and share open spatial analysis tools and datasets.  For a complete picture of our group’s work, see the [**Public Overview**](https://github.com/parker-group/public-overview).
+Most of my active research is now organized under the [**Parker Group organization**](https://github.com/parker-group), where we develop and share open spatial analysis tools and datasets.  
+For a complete picture of our group’s work, see the [**Public Overview**](https://github.com/parker-group/public-overview).
 
 ---
 
 ## 🌍 Career Arc & Project Constellation
 
 ### 1. **Foundations** — Field epidemiology & GIS
-Early work combining field research, geography (especially geographic reconnaissance), anthropology (ethnography and participant observation), and spatial analysis to understand health and disease in complex settings.
+Early work combining field research, anthropology, and spatial analysis to understand health and disease in complex settings.
 
-### 2. **Expanding Methods** — Remote sensing, spatial modeling & human movement
-Incorporating **Earth observation**, **spatiotemporal analysis**, **human movement research**, and tool development to answer new public health questions.
+### 2. **Expanding Methods** — Remote sensing, movement analysis & spatial modeling
+Incorporating **Earth observation**, **human movement studies**, **spatiotemporal analysis**, and tool development to answer new public health questions.
 
 - [SDEtool](https://github.com/parker-group/SDEtool) — Our in-house R package for generating standard deviational ellipses, used in spatial epidemiology and movement analysis.  
 - [earth-observation-hub](https://github.com/DMParker1/earth-observation-hub) — Remote sensing methods applied to health and environment.  
-- [HumMovPatt](https://github.com/SaiTheinThanTun/HumMovPatt) — Code and analysis for human movement & exposure buffer size selection ([Wellcome Open Research study](https://doi.org/10.12688/wellcomeopenres.16937.2)).  
-- [aedes-serology](https://github.com/CatalinaMedina/aedes-serology) — Scripts for extracting time-series environmental data from raster stacks within user-defined buffers around GPS coordinates; developed for an Aedes exposure study but applicable to EO data in general ([DOI: 10.1016/j.actatropica.2023.106829](https://doi.org/10.1016/j.actatropica.2023.106829)).
-  
+- [HumMovPatt](https://github.com/SaiTheinThanTun/HumMovPatt) — Code and analysis for human movement & exposure buffer size selection (DOI: [10.12688/wellcomeopenres.16784.2](https://doi.org/10.12688/wellcomeopenres.16784.2)).  
+- **Raster-Buffer Extractor** — Scripts for extracting time-series environmental data from raster stacks within user-defined buffers around GPS coordinates; developed for an Aedes exposure study but applicable to EO data in general ([repo](https://github.com/CatalinaMedina/aedes-serology), DOI: [10.1016/j.actatropica.2023.106829](https://doi.org/10.1016/j.actatropica.2023.106829)).
+
 ### 3. **Interdisciplinary Collaborations**
-Working at the intersection of epidemiology, vector-borne disease control, climate, and health systems—often in challenging borderland and displacement contexts.
+Working at the intersection of epidemiology, vector-borne disease control, climate, and health systems — often in challenging borderland and displacement contexts.
 
 - [METF-mapping](https://github.com/DMParker1/METF-mapping) — Mapping and community engagement groundwork for malaria post placement.  
 - [tMDA-program](https://github.com/DMParker1/tmda-program) — Targeted mass drug administration trials and modeling.  
@@ -60,7 +61,7 @@ flowchart LR
     EO["Earth Observation Hub"]
     SDE["SDEtool"]
     HUM["HumMovPatt"]
-    AES["aedes-serology"]
+    RBE["Raster-Buffer Extractor"]
   end
 
   subgraph C[Umbrella]
@@ -71,6 +72,7 @@ flowchart LR
     PG["Parker Group (org)"]
   end
 
+  %% umbrella links
   GIS --> METF
   GIS --> tMDA
   GIS --> EDT
@@ -78,20 +80,23 @@ flowchart LR
   GIS --> EO
   GIS --> SDE
   GIS --> HUM
-  GIS --> AES
+  GIS --> RBE
   GIS --> PG
 
+  %% method/theme crosslinks
   METF --- tMDA
   EDT --- tMDA
   METF --- MCH
   EO --- SDE
-  EO --- AES
-  SDE --- HUM
+  EO --- HUM
+  EO --- RBE
+  MCH -.-> SDE
 
+  %% convergence
   EO --> PG
   SDE --> PG
   HUM --> PG
-  AES --> PG
+  RBE --> PG
   METF --> PG
   tMDA --> PG
   EDT --> PG
