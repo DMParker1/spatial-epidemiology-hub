@@ -31,27 +31,27 @@ Working at the intersection of epidemiology, vector-borne disease control, clima
 
 ## 🗺 Visual: Project Constellation
 
-    ```mermaid
-    graph TD
-      GIS[spatial-epidemiology-hub]
-      METF[METF-mapping]
-      tMDA[tMDA-program]
-      EDT[early-dx-tx]
-      MCH[tm-border-mch]
-      EO[Earth Observation Hub]
-      SDE[SDEtool]
+```mermaid
+graph TD
+  GIS[spatial-epidemiology-hub]
+  METF[METF-mapping]
+  tMDA[tMDA-program]
+  EDT[early-dx-tx]
+  MCH[tm-border-mch]
+  EO[Earth Observation Hub]
+  SDE[SDEtool]
 
-      GIS --> METF
-      GIS --> tMDA
-      GIS --> EDT
-      GIS --> MCH
-      GIS --> EO
-      GIS --> SDE
+  GIS --> METF
+  GIS --> tMDA
+  GIS --> EDT
+  GIS --> MCH
+  GIS --> EO
+  GIS --> SDE
 
-      METF --- tMDA
-      EDT --- tMDA
-      METF --- MCH
-      EO --- SDE
+  METF --- tMDA
+  EDT --- tMDA
+  METF --- MCH
+  EO --- SDE
     ```
 
 ---
