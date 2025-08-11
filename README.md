@@ -46,17 +46,19 @@ For a complete, living catalog see the **[Public Overview](https://github.com/pa
   "primaryBorderColor":"#2E7D32",
   "primaryTextColor":"#0F172A",
   "lineColor":"#9CA3AF"
-}}}%%
-flowchart LR
+}, "flowchart":{"rankSpacing":45,"nodeSpacing":30}}}%%
+flowchart TB
+
   subgraph A[Foundations]
     direction LR
     EDT["early-dx-tx"]
     tMDA["tMDA-program"]
-    METF["METF-mapping"]
     MCH["tm-border-mch"]
+    METF["METF-mapping"]
   end
 
   subgraph B[Expanding Methods]
+    direction LR
     EO["Earth Observation Hub"]
     SDE["SDEtool"]
     HUM["HumMovPatt"]
@@ -72,10 +74,10 @@ flowchart LR
   end
 
   %% umbrella links (solid)
-  GIS --> METF
-  GIS --> tMDA
   GIS --> EDT
+  GIS --> tMDA
   GIS --> MCH
+  GIS --> METF
   GIS --> EO
   GIS --> SDE
   GIS --> HUM
@@ -88,7 +90,7 @@ flowchart LR
   EO --- RBE
   METF --- tMDA
   EDT --- tMDA
-  MCH --- METF
+  METF --- MCH
 
   %% convergence to Parker Group (solid)
   EO --> PG
