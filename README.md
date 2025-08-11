@@ -18,10 +18,10 @@ Early work combining field research, anthropology, and spatial analysis to under
 ### 2. **Expanding Methods** — Remote sensing, movement analysis & spatial modeling
 Incorporating **Earth observation**, **human movement studies**, **spatiotemporal analysis**, and tool development to answer new public health questions.
 
-- [SDEtool](https://github.com/parker-group/SDEtool) — Our in-house R package for generating standard deviational ellipses, used in spatial epidemiology and movement analysis.  
+- [SDEtool](https://github.com/parker-group/SDEtool) — Our in-house R package for generating standard deviational ellipses.  
 - [earth-observation-hub](https://github.com/DMParker1/earth-observation-hub) — Remote sensing methods applied to health and environment.  
-- [HumMovPatt](https://github.com/SaiTheinThanTun/HumMovPatt) — Code and analysis for human movement & exposure buffer size selection (DOI: [10.12688/wellcomeopenres.16784.2](https://doi.org/10.12688/wellcomeopenres.16784.2)).  
-- **Raster-Buffer Extractor** — Scripts for extracting time-series environmental data from raster stacks within user-defined buffers around GPS coordinates; developed for an Aedes exposure study but applicable to EO data in general ([repo](https://github.com/CatalinaMedina/aedes-serology), DOI: [10.1016/j.actatropica.2023.106829](https://doi.org/10.1016/j.actatropica.2023.106829)).
+- [HumMovPatt](https://github.com/SaiTheinThanTun/HumMovPatt) — Human movement & exposure buffer size selection (DOI: [10.12688/wellcomeopenres.16784.2](https://doi.org/10.12688/wellcomeopenres.16784.2)).  
+- **Raster-Buffer Extractor** — Helper functions to extract **time-series** environmental values from **raster stacks** within **user-defined buffers** around GPS points ([helper functions](https://github.com/CatalinaMedina/aedes-serology/tree/main/helper-functions)).
 
 ### 3. **Interdisciplinary Collaborations**
 Working at the intersection of epidemiology, vector-borne disease control, climate, and health systems — often in challenging borderland and displacement contexts.
@@ -84,13 +84,12 @@ flowchart LR
   GIS --> PG
 
   %% method/theme crosslinks
-  METF --- tMDA
-  EDT --- tMDA
-  METF --- MCH
   EO --- SDE
   EO --- HUM
   EO --- RBE
-  MCH -.-> SDE
+  METF --- tMDA
+  EDT --- tMDA
+  METF --- MCH
 
   %% convergence
   EO --> PG
@@ -101,6 +100,14 @@ flowchart LR
   tMDA --> PG
   EDT --> PG
   MCH --> PG
+
+  %% clickable nodes
+  click EO "https://github.com/DMParker1/earth-observation-hub" _blank
+  click SDE "https://github.com/parker-group/SDEtool" _blank
+  click HUM "https://github.com/SaiTheinThanTun/HumMovPatt" _blank
+  click RBE "https://github.com/CatalinaMedina/aedes-serology/tree/main/helper-functions" _blank
+  click PG  "https://github.com/parker-group" _blank
+  click GIS "https://github.com/DMParker1/spatial-epidemiology-hub" _blank
 ```
 
 ---
@@ -112,7 +119,7 @@ flowchart LR
   - [SDEtool](https://github.com/parker-group/SDEtool) — Standard Deviational Ellipse generation in R.  
   - [earth-observation-hub](https://github.com/DMParker1/earth-observation-hub) — EO and remote sensing workflows for health research.  
   - [HumMovPatt](https://github.com/SaiTheinThanTun/HumMovPatt) — Code and analysis for human movement & exposure buffer size selection (DOI: [10.12688/wellcomeopenres.16784.2](https://doi.org/10.12688/wellcomeopenres.16784.2)).  
-  - **Raster-Buffer Extractor** — Scripts for extracting time-series environmental data from raster stacks within user-defined buffers around GPS coordinates; developed for an Aedes exposure study but applicable to EO data in general ([repo](https://github.com/CatalinaMedina/aedes-serology), DOI: [10.1016/j.actatropica.2023.106829](https://doi.org/10.1016/j.actatropica.2023.106829)).  
+  - **Raster-Buffer Extractor** — Scripts for extracting time-series environmental data from raster stacks within user-defined buffers around GPS coordinates; developed for an Aedes exposure study but applicable to EO data in general ([helper functions](https://github.com/CatalinaMedina/aedes-serology/tree/main/helper-functions), DOI: [10.1016/j.actatropica.2023.106829](https://doi.org/10.1016/j.actatropica.2023.106829)).  
 - **Ongoing Themes & Representative Projects**  
   *(These links highlight key areas that have shaped my work and continue to influence my research. I add new examples over time; for the full scope of current activities, see the [Parker Group Public Overview](https://github.com/parker-group/public-overview).)*  
   - [METF-mapping](https://github.com/DMParker1/METF-mapping) — Mapping malaria post placement & community engagement.  
@@ -123,4 +130,3 @@ flowchart LR
 ---
 
 <sub>© Daniel M. Parker — See individual repositories for license details.</sub>
-
