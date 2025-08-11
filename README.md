@@ -101,13 +101,15 @@ flowchart LR
   EDT --> PG
   MCH --> PG
 
-  %% clickable nodes
-  click EO "https://github.com/DMParker1/earth-observation-hub" _blank
-  click SDE "https://github.com/parker-group/SDEtool" _blank
-  click HUM "https://github.com/SaiTheinThanTun/HumMovPatt" _blank
-  click RBE "https://github.com/CatalinaMedina/aedes-serology/tree/main/helper-functions" _blank
-  click PG  "https://github.com/parker-group" _blank
-  click GIS "https://github.com/DMParker1/spatial-epidemiology-hub" _blank
+  %% clickable nodes (each on its own line with tooltip)
+  click EO  "https://github.com/DMParker1/earth-observation-hub"             "Open earth-observation-hub" _blank
+  click SDE "https://github.com/parker-group/SDEtool"                        "Open SDEtool"               _blank
+  click HUM "https://github.com/SaiTheinThanTun/HumMovPatt"                  "Open HumMovPatt"            _blank
+  click RBE "https://github.com/CatalinaMedina/aedes-serology/tree/main/helper-functions" "Open helper functions" _blank
+  click PG  "https://github.com/parker-group"                                "Open Parker Group"          _blank
+  click GIS "https://github.com/DMParker1/spatial-epidemiology-hub"          "Open this hub"              _blank
+
+
 ```
 
 ---
