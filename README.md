@@ -62,7 +62,7 @@ flowchart TB
     GIS["spatial-epidemiology-hub"]
   end
   subgraph D[Current & Future]
-    PG["Parker Group (org)"]
+    PG["Parker Group (org)\n— founded YYYY —"]:::pg
   end
 
   %% Umbrella (solid, present)
@@ -90,6 +90,9 @@ flowchart TB
   tMDA --> PG
   EDT --> PG
   MCH --> PG
+
+  %% Highlight Parker Group node
+  classDef pg fill:#E0F2FE,stroke:#1D4ED8,stroke-width:3px;
 
 ```
 
