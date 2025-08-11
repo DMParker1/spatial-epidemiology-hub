@@ -111,6 +111,14 @@ flowchart TB
   EDT -. Early Dx/TX model .-> METF
   MCH -. Records + context .-> METF
 
+  %% style dashed influence edges (light blue)
+  linkStyle 23 stroke:#4DA3FF,stroke-width:2px,stroke-dasharray:5 5;
+  linkStyle 24 stroke:#4DA3FF,stroke-width:2px,stroke-dasharray:5 5;
+  linkStyle 25 stroke:#4DA3FF,stroke-width:2px,stroke-dasharray:5 5;
+  linkStyle 26 stroke:#4DA3FF,stroke-width:2px,stroke-dasharray:5 5;
+  linkStyle 27 stroke:#4DA3FF,stroke-width:2px,stroke-dasharray:5 5;
+  linkStyle 28 stroke:#4DA3FF,stroke-width:2px,stroke-dasharray:5 5;
+  linkStyle 29 stroke:#4DA3FF,stroke-width:2px,stroke-dasharray:5 5;
 ```
 
 ---
