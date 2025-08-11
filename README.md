@@ -15,11 +15,12 @@ For a complete picture of our group’s work, see the [**Public Overview**](http
 ### 1. **Foundations** — Field epidemiology & GIS
 Early work combining field research, anthropology, and spatial analysis to understand health and disease in complex settings.
 
-### 2. **Expanding Methods** — Remote sensing & spatial modeling
-Incorporating **Earth observation**, **spatiotemporal analysis**, and tool development to answer new public health questions.
+### 2. **Expanding Methods** — Remote sensing, spatial modeling, & human movement
+Incorporating **Earth observation**, **spatiotemporal analysis**, **human mobility studies**, and tool development to answer new public health questions.
 
 - [SDEtool](https://github.com/parker-group/SDEtool) — Our in-house R package for generating standard deviational ellipses, used in spatial epidemiology and movement analysis.  
-- [earth-observation-hub](https://github.com/DMParker1/earth-observation-hub) — Remote sensing methods applied to health and environment.
+- [earth-observation-hub](https://github.com/DMParker1/earth-observation-hub) — Remote sensing methods applied to health and environment.  
+- *(Planned)* Human movement & activity space repository — Work on how spatial buffers relate to actual exposure based on mobility patterns. See our related publication on [mobility-informed buffer selection](https://wellcomeopenresearch.org/articles/6-148/v2).
 
 ### 3. **Interdisciplinary Collaborations**
 Working at the intersection of epidemiology, vector-borne disease control, climate, and health systems — often in challenging borderland and displacement contexts.
@@ -58,6 +59,7 @@ flowchart LR
   subgraph B[Expanding Methods]
     EO["Earth Observation Hub"]
     SDE["SDEtool"]
+    HM["Human Movement & Activity Spaces"]
   end
 
   subgraph C[Umbrella]
@@ -74,15 +76,18 @@ flowchart LR
   GIS --> MCH
   GIS --> EO
   GIS --> SDE
+  GIS --> HM
   GIS --> PG
 
   METF --- tMDA
   EDT --- tMDA
   METF --- MCH
   EO --- SDE
+  EO --- HM
 
   EO --> PG
   SDE --> PG
+  HM --> PG
   METF --> PG
   tMDA --> PG
   EDT --> PG
