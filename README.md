@@ -49,10 +49,11 @@ For a complete, living catalog see the **[Public Overview](https://github.com/pa
 }}}%%
 flowchart LR
   subgraph A[Foundations]
-    METF["METF-mapping"]
+    direction LR
     EDT["early-dx-tx"]
-    MCH["tm-border-mch"]
     tMDA["tMDA-program"]
+    METF["METF-mapping"]
+    MCH["tm-border-mch"]
   end
 
   subgraph B[Expanding Methods]
@@ -107,7 +108,6 @@ flowchart LR
   tMDA -. MDA trial design .-> METF
   EDT -. Early Dx/TX model .-> METF
   MCH -. Records + context .-> METF
-
 ```
 
 ---
