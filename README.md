@@ -99,13 +99,6 @@ flowchart TB
   %% Highlight Parker Group node
   classDef pg fill:#E0F2FE,stroke:#1D4ED8,stroke-width:3px;
 
-%% add at the end of your mermaid block
-click METF "https://github.com/DMParker1/METF-mapping" _blank
-click tMDA "https://github.com/DMParker1/tmda-program" _blank
-click EDT  "https://github.com/DMParker1/early-dx-tx" _blank
-click MCH  "https://github.com/DMParker1/tm-border-mch" _blank
-click EO   "https://github.com/DMParker1/earth-observation-hub" _blank
-click SDE  "https://github.com/parker-group/SDEtool" _blank
 
 ```
 
