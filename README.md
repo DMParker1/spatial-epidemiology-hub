@@ -6,7 +6,8 @@ This is my personal umbrella repository tying together projects, tools, and coll
 
 Most of my active research is now organized under the [**Parker Group organization**](https://github.com/parker-group), where we develop and share open spatial analysis tools and datasets. For a complete picture of our group’s work, see the [**Public Overview**](https://github.com/parker-group/public-overview).
 
-**Jump to:** [Project Constellation](#visual-project-constellation) · [Timeline](#timeline)
+**Jump to:** [Project Constellation](#visual-project-constellation) · [Timeline](#career-timeline-clickable)
+*Two complementary views: the constellation shows how projects connect; the timeline shows when they happened and how the methods evolved.*
 
 ---
 
