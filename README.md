@@ -101,7 +101,8 @@ flowchart TB
 ---
 
 ## 📜 Career timeline (clickable)
-
+<details>
+  <summary><b>Show timeline</b></summary>
 - **1980–2009 — Early years:** Love of maps → GIS & disease mapping *(University of Washington, Seattle)*.  
 - **2009–2014 — Penn State:** Spatial methods with [Stephen Matthews](https://sociology.la.psu.edu/people/stephen-a-matthews/); dissertation on malaria & demography along the Thailand–Myanmar border.  
 - **Pre-METF — Early Dx/TX:** Long-running SMRU strategy; evidence base for later work → repo: [early-dx-tx](https://github.com/DMParker1/early-dx-tx).  
@@ -111,7 +112,7 @@ flowchart TB
 - **2016+ — EO collaborations:** LOWMRU / Paul Newton; EO used in METF & MCH → hub: [earth-observation-hub](https://github.com/DMParker1/earth-observation-hub).  
 - **2018+ — Methods focus:** [SDEtool](https://github.com/parker-group/SDEtool) · [HumMovPatt](https://github.com/SaiTheinThanTun/HumMovPatt) · [Raster-Buffer Extractor](https://github.com/CatalinaMedina/aedes-serology/tree/main/helper-functions).  
 - **2017+ — UC Irvine:** Founded [Parker Group](https://github.com/parker-group) — open methods & datasets.
-
+</details>
 ---
 
 <!--
