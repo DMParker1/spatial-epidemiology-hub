@@ -7,6 +7,7 @@ This is my personal umbrella repository tying together projects, tools, and coll
 Most of my active research is now organized under the [**Parker Group organization**](https://github.com/parker-group), where we develop and share open spatial analysis tools and datasets. For a complete picture of our group’s work, see the [**Public Overview**](https://github.com/parker-group/public-overview).
 
 **Jump to:** [Project Constellation](#visual-project-constellation) · [Timeline](#career-timeline-clickable)
+
 *Two complementary views: the constellation shows how projects connect; the timeline shows when they happened and how the methods evolved.*
 
 ---
@@ -116,8 +117,8 @@ flowchart TB
 - **2016+ — EO collaborations:** LOWMRU / Paul Newton; EO used in METF & MCH → hub: [earth-observation-hub](https://github.com/DMParker1/earth-observation-hub).  
 - **2018+ — Methods focus:** [SDEtool](https://github.com/parker-group/SDEtool) · [HumMovPatt](https://github.com/SaiTheinThanTun/HumMovPatt) · [Raster-Buffer Extractor](https://github.com/CatalinaMedina/aedes-serology/tree/main/helper-functions).  
 - **2017+ — UC Irvine:** Founded [Parker Group](https://github.com/parker-group) — open methods & datasets.
-
 </details>
+
 
 <!--
 ## 🧪 Methods ↔ Projects matrix (present links)
