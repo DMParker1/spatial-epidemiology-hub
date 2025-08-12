@@ -7,8 +7,9 @@ This is my personal umbrella repository tying together projects, tools, and coll
 Most of my active research is now organized under the [**Parker Group organization**](https://github.com/parker-group), where we develop and share open spatial analysis tools and datasets. For a complete picture of our group’s work, see the [**Public Overview**](https://github.com/parker-group/public-overview).
 
 
+**Jump to:** [Project Constellation](#constellation) · [Timeline](#timeline)
+*Two complementary views: the Project Constellation shows how projects connect; the Timeline shows when they happened and how the methods evolved.*
 
--*Two complementary views: the Project Constellation shows how projects connect; the Timeline shows when they happened and how the methods evolved.*
 ---
 
 ## 🌍 Career Arc & Project Constellation
@@ -37,7 +38,7 @@ Most of my active and upcoming work happens within the **[Parker Group](https://
 For a complete, living catalog see the **[Public Overview](https://github.com/parker-group/public-overview)**.
 
 ---
-
+<a id="constellation"></a>
 ## 🗺 Visual: Project Constellation
 
 ```mermaid
@@ -102,7 +103,7 @@ flowchart TB
 *Solid lines show the current structure. The timeline below captures sequence and method usage. The highlighted node marks the group I founded in 2017.*
 
 ---
-
+<a id="timeline"></a>
 ## 📜 Career timeline (clickable)
 <details>
 <summary><b>Show timeline</b></summary>
