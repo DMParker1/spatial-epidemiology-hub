@@ -8,6 +8,7 @@ Most of my active research is now organized under the [**Parker Group organizati
 
 
 **Jump to:** [Project Constellation](#constellation) · [Timeline](#timeline)
+
 *Two complementary views: the Project Constellation shows how projects connect; the Timeline shows when they happened and how the methods evolved.*
 
 ---
