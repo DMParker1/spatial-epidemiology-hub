@@ -113,7 +113,6 @@ flowchart TB
 - **2018+ — Methods focus:** [SDEtool](https://github.com/parker-group/SDEtool) · [HumMovPatt](https://github.com/SaiTheinThanTun/HumMovPatt) · [Raster-Buffer Extractor](https://github.com/CatalinaMedina/aedes-serology/tree/main/helper-functions).  
 - **2017+ — UC Irvine:** Founded [Parker Group](https://github.com/parker-group) — open methods & datasets.
 </details>
----
 
 <!--
 ## 🧪 Methods ↔ Projects matrix (present links)
