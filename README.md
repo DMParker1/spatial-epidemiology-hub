@@ -8,7 +8,7 @@ Most of my active research is now organized under the [**Parker Group organizati
 
 
 
-*Two complementary views: the Project Constellation shows how projects connect; the Timeline shows when they happened and how the methods evolved.*
+-*Two complementary views: the Project Constellation shows how projects connect; the Timeline shows when they happened and how the methods evolved.*
 ---
 
 ## 🌍 Career Arc & Project Constellation
