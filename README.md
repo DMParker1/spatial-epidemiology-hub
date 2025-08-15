@@ -23,8 +23,9 @@ Incorporating **Earth Observation**, **human movement studies**, **spatiotempora
 
 - [SDEtool](https://github.com/parker-group/SDEtool) — Our in-house R package for generating standard deviational ellipses.  
 - [earth-observation-hub](https://github.com/DMParker1/earth-observation-hub) — Remote sensing methods applied to health and the environment.  
-- [HumMovPatt](https://github.com/SaiTheinThanTun/HumMovPatt) — Human movement & exposure buffer size selection (DOI: [10.12688/wellcomeopenres.16784.2](https://doi.org/10.12688/wellcomeopenres.16784.2)).  
+- [activity-spaces](https://github.com/DMParker1/activity-spaces) — Narrative + code on activity-space methods (farm huts, GPS loggers, mobile phone data) for transmission-relevant exposure.  
 - **Raster-Buffer Extractor** — Helper functions to extract **time-series** environmental values from **raster stacks** within **user-defined buffers** around GPS points ([helper functions](https://github.com/CatalinaMedina/aedes-serology/tree/main/helper-functions), DOI: [10.1016/j.actatropica.2023.106829](https://doi.org/10.1016/j.actatropica.2023.106829)).
+
 
 ### 3. **Interdisciplinary Collaborations**
 Working at the intersection of epidemiology, vector-borne disease control, climate, and health systems — often in challenging borderland and displacement contexts.
@@ -60,7 +61,7 @@ flowchart TB
     direction LR
     EO["Earth Observation Hub"]
     SDE["SDEtool"]
-    HUM["HumMovPatt"]
+    AS["activity-spaces"]
     RBE["Raster-Buffer Extractor"]
   end
   subgraph C[Umbrella]
@@ -70,34 +71,40 @@ flowchart TB
     PG["Parker Group (org)\n— founded 2017 —"]:::pg
   end
 
-  %% Umbrella (solid, present)
+  %% Umbrella links
   GIS --> EDT
   GIS --> tMDA
   GIS --> MCH
   GIS --> METF
   GIS --> EO
   GIS --> SDE
-  GIS --> HUM
+  GIS --> AS
   GIS --> RBE
   GIS --> PG
 
-  %% Current method interplay (solid, present)
+  %% Method interplay
   EO --- SDE
-  EO --- HUM
+  EO --- AS
   EO --- RBE
+  AS --- RBE
+  AS --- tMDA
 
-  %% Present convergence to Parker Group (solid)
+  %% Convergence to Parker Group
   EO --> PG
   SDE --> PG
-  HUM --> PG
+  AS --> PG
   RBE --> PG
   METF --> PG
   tMDA --> PG
   EDT --> PG
   MCH --> PG
 
+  %% Clickable link for activity-spaces
+  click AS "https://github.com/DMParker1/activity-spaces" "activity-spaces repository"
+
   %% Highlight Parker Group node
   classDef pg fill:#E0F2FE,stroke:#1D4ED8,stroke-width:3px;
+
 
 
 ```
@@ -142,7 +149,7 @@ flowchart TB
 - **Tools & Methods**  
   - [SDEtool](https://github.com/parker-group/SDEtool) — Standard Deviational Ellipse generation in R.  
   - [earth-observation-hub](https://github.com/DMParker1/earth-observation-hub) — EO and remote sensing workflows for health research.  
-  - [HumMovPatt](https://github.com/SaiTheinThanTun/HumMovPatt) — Code and analysis for human movement & exposure buffer size selection (DOI: [10.12688/wellcomeopenres.16784.2](https://doi.org/10.12688/wellcomeopenres.16784.2)).  
+  - [activity-spaces](https://github.com/DMParker1/activity-spaces) — Methods + narrative on multi-place exposure (farm huts, GPS, mobile phone data) for infectious disease transmission.
   - **Raster-Buffer Extractor** — Scripts for extracting time-series environmental data from raster stacks within user-defined buffers around GPS coordinates; developed for an Aedes exposure study but applicable to EO data in general ([helper functions](https://github.com/CatalinaMedina/aedes-serology/tree/main/helper-functions), DOI: [10.1016/j.actatropica.2023.106829](https://doi.org/10.1016/j.actatropica.2023.106829)).  
 - **Ongoing Themes & Representative Projects**  
   *(These links highlight key areas that have shaped my work and continue to influence my research. I add new examples over time; for the full scope of current activities, see the [Parker Group Public Overview](https://github.com/parker-group/public-overview).)*  
