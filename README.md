@@ -99,8 +99,17 @@ flowchart TB
   EDT --> PG
   MCH --> PG
 
-  %% Clickable link for activity-spaces
+  %% Clickable links for ALL nodes
+  click GIS "https://github.com/DMParker1/spatial-epidemiology-hub" "spatial-epidemiology-hub"
+  click EDT "https://github.com/DMParker1/early-dx-tx" "early-dx-tx repository"
+  click tMDA "https://github.com/DMParker1/tmda-program" "tMDA-program repository"
+  click MCH "https://github.com/DMParker1/tm-border-mch" "tm-border-mch repository"
+  click METF "https://github.com/DMParker1/METF-mapping" "METF-mapping repository"
+  click EO "https://github.com/DMParker1/earth-observation-hub" "Earth Observation Hub"
+  click SDE "https://github.com/parker-group/SDEtool" "SDEtool package"
   click AS "https://github.com/DMParker1/activity-spaces" "activity-spaces repository"
+  click RBE "https://github.com/CatalinaMedina/aedes-serology/tree/main/helper-functions" "Raster-Buffer Extractor helper functions"
+  click PG "https://github.com/parker-group" "Parker Group organization"
 
   %% Highlight Parker Group node
   classDef pg fill:#E0F2FE,stroke:#1D4ED8,stroke-width:3px;
