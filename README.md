@@ -2,7 +2,7 @@
 
 [![Release](https://img.shields.io/github/v/release/DMParker1/spatial-epidemiology-hub)](https://github.com/DMParker1/spatial-epidemiology-hub/releases)
 
-This is my personal umbrella repository tying together projects, tools, and collaborations in GIS, spatial epidemiology, and public health. It is both a **map of my career so far** and a **pointer to where my current and future work is headed**.
+This is my personal umbrella repository tying together projects, tools, and collaborations in GIS, spatial epidemiology, and public health. It is both a map of my career so far and a pointer to where my current and future work is headed. 
 
 Most of my active research is now organized under the [**Parker Group organization**](https://github.com/parker-group), where we develop and share open spatial analysis tools and datasets. For a complete picture of our group’s work, see the [**Public Overview**](https://github.com/parker-group/public-overview).
 
