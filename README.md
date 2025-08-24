@@ -21,11 +21,13 @@ Early work combining field research, geography (especially geographic reconnaiss
 ### 2. **Expanding Methods** — Earth Observation, Activity Space & Movement Analysis, and Spatial Modeling
 Incorporating **Earth Observation**, **human movement studies**, **spatiotemporal analysis**, and tool development to answer new public health questions.
 
+**Methods & Tools**
 - [earth-observation-howto](https://github.com/parker-group/earth-observation-howto) — Practical guides for weather stations, ERA5, zonal stats, raster reshaping.  
-- [earth-observation-hub](https://github.com/DMParker1/earth-observation-hub) — EO workflows and narrative case studies.  
 - [activity-spaces](https://github.com/DMParker1/activity-spaces) — GPS loggers, mobile data, farm huts, and other multi-place exposure methods.  
 - [SDEtool](https://github.com/parker-group/SDEtool) — R package for standard deviational ellipses.  
 
+**Narrative & Background**
+- [earth-observation-hub](https://github.com/DMParker1/earth-observation-hub) — Storytelling hub: how I got into Earth Observation work, with a curated list of relevant papers and case studies.  
 
 ### 3. **Interdisciplinary Collaborations**
 Working at the intersection of epidemiology, vector-borne disease control, climate, and health systems — often in challenging borderland and displacement contexts.
