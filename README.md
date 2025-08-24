@@ -22,8 +22,8 @@ Early work combining field research, geography (especially geographic reconnaiss
 Incorporating **Earth Observation**, **human movement studies**, **spatiotemporal analysis**, and tool development to answer new public health questions.
 
 **Methods & Tools**
-- [earth-observation-howto](https://github.com/parker-group/earth-observation-howto) — Practical guides for weather stations, ERA5, zonal stats, raster reshaping.  
-- [activity-spaces](https://github.com/DMParker1/activity-spaces) — GPS loggers, mobile data, farm huts, and other multi-place exposure methods.  
+- [earth-observation-howto](https://github.com/parker-group/earth-observation-howto) — Practical guides for weather station and satellite data, zonal stats, raster wrangling.  
+- [activity-spaces](https://github.com/DMParker1/activity-spaces) — Sometimes we spend time away from home and that is likely important for our health.  
 - [SDEtool](https://github.com/parker-group/SDEtool) — R package for standard deviational ellipses.  
 
 **Narrative & Background**
