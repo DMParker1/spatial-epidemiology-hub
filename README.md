@@ -59,7 +59,7 @@ flowchart TB
     MCH["tm-border-mch"]
     METF["METF-mapping"]
   end
-  subgraph B[Expanding Interests & Methods]
+  subgraph B[Expanding Areas]
     direction LR
     EO["Earth Observation Hub"]
     HOWTO["Earth Observation How-To"]
