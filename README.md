@@ -154,12 +154,14 @@ flowchart TB
 
 - **Parker Group** — [Organization homepage](https://github.com/parker-group) | [Public Overview](https://github.com/parker-group/public-overview)  
 
-### Tools & Methods
-- [earth-observation-hub](https://github.com/DMParker1/earth-observation-hub) — EO and remote sensing workflows for health research.  
+### Methods & Tools
 - [earth-observation-howto](https://github.com/parker-group/earth-observation-howto) — Practical step-by-step guides (weather stations, ERA5, zonal statistics, raster reshaping).  
 - [SDEtool](https://github.com/parker-group/SDEtool) — Standard Deviational Ellipse generation in R.  
 - [activity-spaces](https://github.com/DMParker1/activity-spaces) — Methods + narrative on multi-place exposure (farm huts, GPS, mobile phone data).  
 - **Raster buffer extraction** — Helper scripts for linking raster time series to GPS points; developed in collaboration with Catalina Medina during an Aedes exposure study ([functions](https://github.com/CatalinaMedina/aedes-serology/tree/main/helper-functions), DOI: [10.1016/j.actatropica.2023.106829](https://doi.org/10.1016/j.actatropica.2023.106829)).  
+
+### Narrative & Background
+- [earth-observation-hub](https://github.com/DMParker1/earth-observation-hub) — Storytelling hub: how I got into Earth Observation work, with a curated list of relevant papers and case studies.  
 
 ### Ongoing Themes & Representative Projects
 *(These links highlight key areas that have shaped my work and continue to influence my research. For the full scope of current activities, see the [Parker Group Public Overview](https://github.com/parker-group/public-overview).)*  
