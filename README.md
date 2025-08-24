@@ -61,8 +61,8 @@ flowchart TB
   end
   subgraph B[Expanding Methods]
     direction LR
-    HOWTO["Earth Observation How-To"]
     EO["Earth Observation Hub"]
+    HOWTO["Earth Observation How-To"]
     SDE["SDEtool"]
     AS["activity-spaces"]
   end
@@ -78,21 +78,22 @@ flowchart TB
   GIS --> tMDA
   GIS --> MCH
   GIS --> METF
-  GIS --> HOWTO
   GIS --> EO
+  GIS --> HOWTO
   GIS --> SDE
   GIS --> AS
   GIS --> PG
 
   %% Method interplay
-  HOWTO --- EO
+  EO --- HOWTO
+  EO --- SDE
+  EO --- AS
   HOWTO --- SDE
   HOWTO --- AS
-  EO --- AS
 
   %% Convergence to Parker Group
-  HOWTO --> PG
   EO --> PG
+  HOWTO --> PG
   SDE --> PG
   AS --> PG
   METF --> PG
@@ -106,8 +107,8 @@ flowchart TB
   click tMDA "https://github.com/DMParker1/tmda-program" "tMDA-program repository"
   click MCH "https://github.com/DMParker1/tm-border-mch" "tm-border-mch repository"
   click METF "https://github.com/DMParker1/METF-mapping" "METF-mapping repository"
-  click HOWTO "https://github.com/parker-group/earth-observation-howto" "EO How-To Guides"
   click EO "https://github.com/DMParker1/earth-observation-hub" "Earth Observation Hub"
+  click HOWTO "https://github.com/parker-group/earth-observation-howto" "EO How-To Guides"
   click SDE "https://github.com/parker-group/SDEtool" "SDEtool package"
   click AS "https://github.com/DMParker1/activity-spaces" "activity-spaces repository"
   click PG "https://github.com/parker-group" "Parker Group organization"
