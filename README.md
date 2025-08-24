@@ -61,7 +61,7 @@ flowchart TB
   subgraph B[Expanding Methods]
     direction LR
     EO["Earth Observation Hub"]
-    HOWTO["EO How-To Guides"]
+    HOWTO["Earth Observation How-To"]
     SDE["SDEtool"]
     AS["activity-spaces"]
     RBE["Raster-Buffer Extractor"]
