@@ -21,10 +21,11 @@ Early work combining field research, geography (especially geographic reconnaiss
 ### 2. **Expanding Methods** — Earth Observation, Activity Space & Movement Analysis, and Spatial Modeling
 Incorporating **Earth Observation**, **human movement studies**, **spatiotemporal analysis**, and tool development to answer new public health questions.
 
-- [earth-observation-hub](https://github.com/DMParker1/earth-observation-hub) — Remote sensing methods applied to health and the environment.  
-- [activity-spaces](https://github.com/DMParker1/activity-spaces) — Narrative + code on activity-space methods (farm huts, GPS loggers, mobile phone data) for transmission-relevant exposure.  
-- **Raster-Buffer Extractor** — Helper functions to extract **time-series** environmental values from **raster stacks** within **user-defined buffers** around GPS points ([helper functions](https://github.com/CatalinaMedina/aedes-serology/tree/main/helper-functions), DOI: [10.1016/j.actatropica.2023.106829](https://doi.org/10.1016/j.actatropica.2023.106829)).
-- [SDEtool](https://github.com/parker-group/SDEtool) — Our in-house R package for generating standard deviational ellipses.  
+- [earth-observation-hub](https://github.com/DMParker1/earth-observation-hub) — EO methods applied to health and the environment.  
+- [earth-observation-howto](https://github.com/parker-group/earth-observation-howto) — Practical guides for weather stations, ERA5, zonal stats, and raster reshaping.  
+- [activity-spaces](https://github.com/DMParker1/activity-spaces) — Narrative + code on GPS loggers, mobile data, farm huts, and other exposure spaces.  
+- [SDEtool](https://github.com/parker-group/SDEtool) — R package for standard deviational ellipses.  
+- **Raster buffer extraction** — Helper scripts for linking raster time series to GPS points; originally developed in an Aedes exposure study ([functions](https://github.com/CatalinaMedina/aedes-serology/tree/main/helper-functions)).  
 
 
 ### 3. **Interdisciplinary Collaborations**
@@ -44,7 +45,7 @@ For a complete, living catalog see the **[Public Overview](https://github.com/pa
 ## 🗺 Visual: Project Constellation
 
 ```mermaid
-%%{init: {"theme":"base","themeVariables":{
+%%{init: {"theme":"base","themeVariables": {
   "background":"#FAFAFA","clusterBkg":"#F3F4F6","clusterBorder":"#E5E7EB",
   "primaryColor":"#E8F5E9","primaryBorderColor":"#2E7D32",
   "primaryTextColor":"#0F172A","lineColor":"#9CA3AF"
@@ -60,6 +61,7 @@ flowchart TB
   subgraph B[Expanding Methods]
     direction LR
     EO["Earth Observation Hub"]
+    HOWTO["EO How-To Guides"]
     SDE["SDEtool"]
     AS["activity-spaces"]
     RBE["Raster-Buffer Extractor"]
@@ -77,12 +79,14 @@ flowchart TB
   GIS --> MCH
   GIS --> METF
   GIS --> EO
+  GIS --> HOWTO
   GIS --> SDE
   GIS --> AS
   GIS --> RBE
   GIS --> PG
 
   %% Method interplay
+  EO --- HOWTO
   EO --- SDE
   EO --- AS
   EO --- RBE
@@ -91,6 +95,7 @@ flowchart TB
 
   %% Convergence to Parker Group
   EO --> PG
+  HOWTO --> PG
   SDE --> PG
   AS --> PG
   RBE --> PG
@@ -99,13 +104,14 @@ flowchart TB
   EDT --> PG
   MCH --> PG
 
-  %% Clickable links for ALL nodes
+  %% Clickable links
   click GIS "https://github.com/DMParker1/spatial-epidemiology-hub" "spatial-epidemiology-hub"
   click EDT "https://github.com/DMParker1/early-dx-tx" "early-dx-tx repository"
   click tMDA "https://github.com/DMParker1/tmda-program" "tMDA-program repository"
   click MCH "https://github.com/DMParker1/tm-border-mch" "tm-border-mch repository"
   click METF "https://github.com/DMParker1/METF-mapping" "METF-mapping repository"
   click EO "https://github.com/DMParker1/earth-observation-hub" "Earth Observation Hub"
+  click HOWTO "https://github.com/parker-group/earth-observation-howto" "EO How-To Guides"
   click SDE "https://github.com/parker-group/SDEtool" "SDEtool package"
   click AS "https://github.com/DMParker1/activity-spaces" "activity-spaces repository"
   click RBE "https://github.com/CatalinaMedina/aedes-serology/tree/main/helper-functions" "Raster-Buffer Extractor helper functions"
@@ -113,9 +119,6 @@ flowchart TB
 
   %% Highlight Parker Group node
   classDef pg fill:#E0F2FE,stroke:#1D4ED8,stroke-width:3px;
-
-
-
 ```
 
 *Solid lines show the current structure. The timeline below captures sequence and method usage. The highlighted node marks the group I founded in 2017.*
