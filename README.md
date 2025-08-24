@@ -21,11 +21,10 @@ Early work combining field research, geography (especially geographic reconnaiss
 ### 2. **Expanding Methods** — Earth Observation, Activity Space & Movement Analysis, and Spatial Modeling
 Incorporating **Earth Observation**, **human movement studies**, **spatiotemporal analysis**, and tool development to answer new public health questions.
 
-- [earth-observation-hub](https://github.com/DMParker1/earth-observation-hub) — EO methods applied to health and the environment.  
-- [earth-observation-howto](https://github.com/parker-group/earth-observation-howto) — Practical guides for weather stations, ERA5, zonal stats, and raster reshaping.  
-- [activity-spaces](https://github.com/DMParker1/activity-spaces) — Narrative + code on GPS loggers, mobile data, farm huts, and other exposure spaces.  
+- [earth-observation-howto](https://github.com/parker-group/earth-observation-howto) — Practical guides for weather stations, ERA5, zonal stats, raster reshaping.  
+- [earth-observation-hub](https://github.com/DMParker1/earth-observation-hub) — EO workflows and narrative case studies.  
+- [activity-spaces](https://github.com/DMParker1/activity-spaces) — GPS loggers, mobile data, farm huts, and other multi-place exposure methods.  
 - [SDEtool](https://github.com/parker-group/SDEtool) — R package for standard deviational ellipses.  
-- **Raster buffer extraction** — Helper scripts for linking raster time series to GPS points; originally developed in an Aedes exposure study ([functions](https://github.com/CatalinaMedina/aedes-serology/tree/main/helper-functions)).  
 
 
 ### 3. **Interdisciplinary Collaborations**
@@ -60,11 +59,10 @@ flowchart TB
   end
   subgraph B[Expanding Methods]
     direction LR
-    EO["Earth Observation Hub"]
     HOWTO["Earth Observation How-To"]
+    EO["Earth Observation Hub"]
     SDE["SDEtool"]
     AS["activity-spaces"]
-    RBE["Raster-Buffer Extractor"]
   end
   subgraph C[Umbrella]
     GIS["spatial-epidemiology-hub"]
@@ -78,27 +76,23 @@ flowchart TB
   GIS --> tMDA
   GIS --> MCH
   GIS --> METF
-  GIS --> EO
   GIS --> HOWTO
+  GIS --> EO
   GIS --> SDE
   GIS --> AS
-  GIS --> RBE
   GIS --> PG
 
   %% Method interplay
-  EO --- HOWTO
-  EO --- SDE
+  HOWTO --- EO
+  HOWTO --- SDE
+  HOWTO --- AS
   EO --- AS
-  EO --- RBE
-  AS --- RBE
-  AS --- tMDA
 
   %% Convergence to Parker Group
-  EO --> PG
   HOWTO --> PG
+  EO --> PG
   SDE --> PG
   AS --> PG
-  RBE --> PG
   METF --> PG
   tMDA --> PG
   EDT --> PG
@@ -110,11 +104,10 @@ flowchart TB
   click tMDA "https://github.com/DMParker1/tmda-program" "tMDA-program repository"
   click MCH "https://github.com/DMParker1/tm-border-mch" "tm-border-mch repository"
   click METF "https://github.com/DMParker1/METF-mapping" "METF-mapping repository"
-  click EO "https://github.com/DMParker1/earth-observation-hub" "Earth Observation Hub"
   click HOWTO "https://github.com/parker-group/earth-observation-howto" "EO How-To Guides"
+  click EO "https://github.com/DMParker1/earth-observation-hub" "Earth Observation Hub"
   click SDE "https://github.com/parker-group/SDEtool" "SDEtool package"
   click AS "https://github.com/DMParker1/activity-spaces" "activity-spaces repository"
-  click RBE "https://github.com/CatalinaMedina/aedes-serology/tree/main/helper-functions" "Raster-Buffer Extractor helper functions"
   click PG "https://github.com/parker-group" "Parker Group organization"
 
   %% Highlight Parker Group node
