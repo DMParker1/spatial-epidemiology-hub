@@ -153,24 +153,36 @@ flowchart TB
 ---
 ## 🔗 Related Repositories
 
-- **Parker Group** — [Organization homepage](https://github.com/parker-group) | [Public Overview](https://github.com/parker-group/public-overview)  
+This section collects the major repositories linked to my career arc.  
+For the full scope of active projects and datasets, see the **[Parker Group Public Overview](https://github.com/parker-group/public-overview)**.
 
-### Methods & Tools
-- [earth-observation-howto](https://github.com/parker-group/earth-observation-howto) — Practical step-by-step guides (weather stations, ERA5, zonal statistics, raster reshaping).  
+---
+
+### 🧰 Methods & Tools
+Reusable analysis frameworks and packages.
+
+- [earth-observation-howto](https://github.com/parker-group/earth-observation-howto) — Practical guides for weather station and satellite data, zonal stats, raster wrangling.  
 - [SDEtool](https://github.com/parker-group/SDEtool) — Standard Deviational Ellipse generation in R.  
-- [activity-spaces](https://github.com/DMParker1/activity-spaces) — Methods + narrative on multi-place exposure (farm huts, GPS, mobile phone data).  
-- **Raster buffer extraction** — Helper scripts for linking raster time series to GPS points; developed in collaboration with Catalina Medina during an Aedes exposure study ([functions](https://github.com/CatalinaMedina/aedes-serology/tree/main/helper-functions), DOI: [10.1016/j.actatropica.2023.106829](https://doi.org/10.1016/j.actatropica.2023.106829)).  
 
-### Narrative & Background
-- [earth-observation-hub](https://github.com/DMParker1/earth-observation-hub) — Storytelling hub: how I got into Earth Observation work, with a curated list of relevant papers and case studies.  
+---
 
-### Ongoing Themes & Representative Projects
-*(These links highlight key areas that have shaped my work and continue to influence my research. For the full scope of current activities, see the [Parker Group Public Overview](https://github.com/parker-group/public-overview).)*  
+### 🔎 Study Areas & Narratives
+Hubs and projects that map out broader themes, blending fieldwork, methods, and background.
 
+- [earth-observation-hub](https://github.com/DMParker1/earth-observation-hub) — Synthesis of how Earth Observation methods became central to my research, with curated papers and illustrative case studies.
+- [activity-spaces](https://github.com/DMParker1/activity-spaces) — Understanding multi-place exposure (farm huts, GPS, mobile phone data) and its health relevance.  
 - [METF-mapping](https://github.com/DMParker1/METF-mapping) — Mapping malaria post placement & community engagement.  
 - [tMDA-program](https://github.com/DMParker1/tmda-program) — Targeted mass drug administration trials & modeling.  
 - [early-dx-tx](https://github.com/DMParker1/early-dx-tx) — Early access to malaria diagnosis & treatment.  
 - [tm-border-mch](https://github.com/DMParker1/tm-border-mch) — Maternal and child health on the Thailand–Myanmar border.  
+
+---
+
+### 🌐 Parker Group (Current & Future)
+Most active work now resides in the [**Parker Group organization**](https://github.com/parker-group).  
+- [Organization homepage](https://github.com/parker-group)  
+- [Public Overview](https://github.com/parker-group/public-overview) — living catalog of tools, datasets, and collaborations.  
+
 ---
 
 <sub>© Daniel M. Parker — See individual repositories for license details.</sub>
