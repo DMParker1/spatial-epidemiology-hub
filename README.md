@@ -2,46 +2,36 @@
 
 [![Release](https://img.shields.io/github/v/release/DMParker1/spatial-epidemiology-hub)](https://github.com/DMParker1/spatial-epidemiology-hub/releases)
 
-This is my personal umbrella repository tying together projects, tools, and collaborations in GIS, spatial epidemiology, and public health. It is both a map of my career so far and a pointer to where my current and future work is headed. 
+This is my personal umbrella repository — a map of my career arc and a guide to where my work is headed. It highlights the projects, methods, and contexts that have shaped my research.  
 
-Most of my active research is now organized under the [**Parker Group organization**](https://github.com/parker-group), where we develop and share open spatial analysis tools and datasets. For a complete picture of our group’s work, see the [**Public Overview**](https://github.com/parker-group/public-overview).
-
-
-**Jump to:** [Project Constellation](#constellation) · [Timeline](#timeline)
-
-*Two complementary views: the Project Constellation shows how projects connect; the Timeline shows when they happened and how the methods evolved.*
+Much of my current team-based research now happens within the [**Parker Group organization**](https://github.com/parker-group), which I founded in 2017. That hub catalogs and maintains our group’s shared tools and datasets. This repo, by contrast, centers on my own trajectory and motivations.  
 
 ---
 
-## 🌍 Career Arc & Project Constellation
+## 🌍 Career Arc
 
 ### 1. **Foundations** — Field epidemiology & GIS
 Early work combining field research, geography (especially geographic reconnaissance), anthropology (ethnography and participant observation), and spatial analyses to understand health and disease in complex settings.
 
-### 2. **Expanding Methods** — Earth Observation, Activity Space & Movement Analysis, and Spatial Modeling
-Incorporating **Earth Observation**, **human movement studies**, **spatiotemporal analysis**, and tool development to answer new public health questions.
+### 2. **Expanding Methods** — Earth Observation, Movement Analysis, Spatial Modeling
+Incorporating **Earth Observation**, **human movement studies**, and **spatiotemporal methods** to address new public health questions.  
 
-**Methods & Tools**
-- [earth-observation-howto](https://github.com/parker-group/earth-observation-howto) — Practical guides for weather station and satellite data, zonal stats, raster wrangling.  
-- [activity-spaces](https://github.com/DMParker1/activity-spaces) — Sometimes we spend time away from home and that is likely important for our health.  
+- [activity-spaces](https://github.com/DMParker1/activity-spaces) — Multi-place exposure and its relevance for health.  
 - [SDEtool](https://github.com/parker-group/SDEtool) — R package for standard deviational ellipses.  
 
-**Narrative & Background**
-- [earth-observation-hub](https://github.com/DMParker1/earth-observation-hub) — Storytelling hub: how I got into Earth Observation work, with a curated list of relevant papers and case studies.  
-
 ### 3. **Interdisciplinary Collaborations**
-Working at the intersection of epidemiology, vector-borne disease control, climate, and health systems — often in challenging borderland and displacement contexts.
+Working across epidemiology, vector-borne disease control, climate, and health systems — often in borderland and displacement contexts.  
 
-- [METF-mapping](https://github.com/DMParker1/METF-mapping) — Mapping and community engagement groundwork for malaria post placement.  
+- [METF-mapping](https://github.com/DMParker1/METF-mapping) — GIS and community engagement for malaria post placement.  
 - [tMDA-program](https://github.com/DMParker1/tmda-program) — Targeted mass drug administration trials and modeling.  
 - [early-dx-tx](https://github.com/DMParker1/early-dx-tx) — Early access to malaria diagnosis and treatment.  
-- [tm-border-mch](https://github.com/DMParker1/tm-border-mch) — Maternal and child health research on the Thailand–Myanmar border.
+- [tm-border-mch](https://github.com/DMParker1/tm-border-mch) — Maternal and child health research on the Thailand–Myanmar border.  
 
-### 4. **Current & Future Directions** — Parker Group
-Most of my active and upcoming work happens within the **[Parker Group](https://github.com/parker-group)**, where we build open tools and curate datasets.  
-For a complete, living catalog see the **[Public Overview](https://github.com/parker-group/public-overview)**.
+### 4. **Current & Future Directions**
+Today, most of my active and upcoming work continues through the [**Parker Group**](https://github.com/parker-group), where we build open methods and datasets. See the [**Public Overview**](https://github.com/parker-group/public-overview) for a complete, living catalog.  
 
 ---
+
 <a id="constellation"></a>
 ## 🗺 Visual: Project Constellation
 
@@ -151,36 +141,27 @@ flowchart TB
 -->
 
 ---
+
 ## 🔗 Related Repositories
 
-This section collects the major repositories linked to my career arc.  
-The constellation above shows how they connect; the list below makes them easy to explore.
-
----
+A collected index of the repositories linked to my career arc.  
 
 ### 🧰 Methods & Tools
-Reusable analysis frameworks and packages.
-
-- [earth-observation-howto](https://github.com/parker-group/earth-observation-howto) — Practical guides for weather station and satellite data, zonal stats, raster wrangling.  
-- [SDEtool](https://github.com/parker-group/SDEtool) — Standard Deviational Ellipse generation in R.  
-
----
+- [earth-observation-howto](https://github.com/parker-group/earth-observation-howto)  
+- [SDEtool](https://github.com/parker-group/SDEtool)  
 
 ### 🔎 Study Areas & Narratives
-Projects and hubs that illustrate how my research has evolved.
-
-- [earth-observation-hub](https://github.com/DMParker1/earth-observation-hub) — Synthesis of how Earth Observation methods became central to my research, with curated papers and illustrative case studies.  
-- [activity-spaces](https://github.com/DMParker1/activity-spaces) — Understanding multi-place exposure (farm huts, GPS, mobile phone data) and its health relevance.  
-- [METF-mapping](https://github.com/DMParker1/METF-mapping) — Mapping malaria post placement & community engagement.  
-- [tMDA-program](https://github.com/DMParker1/tmda-program) — Targeted mass drug administration trials & modeling.  
-- [early-dx-tx](https://github.com/DMParker1/early-dx-tx) — Early access to malaria diagnosis & treatment.  
-- [tm-border-mch](https://github.com/DMParker1/tm-border-mch) — Maternal and child health on the Thailand–Myanmar border.  
-
----
+- [earth-observation-hub](https://github.com/DMParker1/earth-observation-hub)  
+- [activity-spaces](https://github.com/DMParker1/activity-spaces)  
+- [METF-mapping](https://github.com/DMParker1/METF-mapping)  
+- [tMDA-program](https://github.com/DMParker1/tmda-program)  
+- [early-dx-tx](https://github.com/DMParker1/early-dx-tx)  
+- [tm-border-mch](https://github.com/DMParker1/tm-border-mch)  
 
 ### 🌐 Current & Future Directions
-Most of my active and upcoming work now happens within the [**Parker Group organization**](https://github.com/parker-group), which I founded in 2017 to build and share open tools and datasets.  
+Most ongoing work is now organized under the [**Parker Group**](https://github.com/parker-group).  
 
 ---
 
 <sub>© Daniel M. Parker — See individual repositories for license details.</sub>
+
