@@ -154,7 +154,7 @@ flowchart TB
 ## 🔗 Related Repositories
 
 This section collects the major repositories linked to my career arc.  
-For the full scope of active projects and datasets, see the **[Parker Group Public Overview](https://github.com/parker-group/public-overview)**.
+The constellation above shows how they connect; the list below makes them easy to explore.
 
 ---
 
@@ -167,9 +167,9 @@ Reusable analysis frameworks and packages.
 ---
 
 ### 🔎 Study Areas & Narratives
-Hubs and projects that map out broader themes, blending fieldwork, methods, and background.
+Projects and hubs that illustrate how my research has evolved.
 
-- [earth-observation-hub](https://github.com/DMParker1/earth-observation-hub) — Synthesis of how Earth Observation methods became central to my research, with curated papers and illustrative case studies.
+- [earth-observation-hub](https://github.com/DMParker1/earth-observation-hub) — Synthesis of how Earth Observation methods became central to my research, with curated papers and illustrative case studies.  
 - [activity-spaces](https://github.com/DMParker1/activity-spaces) — Understanding multi-place exposure (farm huts, GPS, mobile phone data) and its health relevance.  
 - [METF-mapping](https://github.com/DMParker1/METF-mapping) — Mapping malaria post placement & community engagement.  
 - [tMDA-program](https://github.com/DMParker1/tmda-program) — Targeted mass drug administration trials & modeling.  
@@ -178,10 +178,8 @@ Hubs and projects that map out broader themes, blending fieldwork, methods, and 
 
 ---
 
-### 🌐 Parker Group (Current & Future)
-Most active work now resides in the [**Parker Group organization**](https://github.com/parker-group).  
-- [Organization homepage](https://github.com/parker-group)  
-- [Public Overview](https://github.com/parker-group/public-overview) — living catalog of tools, datasets, and collaborations.  
+### 🌐 Current & Future Directions
+Most of my active and upcoming work now happens within the [**Parker Group organization**](https://github.com/parker-group), which I founded in 2017 to build and share open tools and datasets.  
 
 ---
 
