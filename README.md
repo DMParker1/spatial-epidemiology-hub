@@ -151,12 +151,12 @@ A collected index of the repositories linked to my career arc.
 - [SDEtool](https://github.com/parker-group/SDEtool)  
 
 ### 🔎 Study Areas & Narratives
-- [earth-observation-hub](https://github.com/DMParker1/earth-observation-hub)  
-- [activity-spaces](https://github.com/DMParker1/activity-spaces)  
-- [METF-mapping](https://github.com/DMParker1/METF-mapping)  
-- [tMDA-program](https://github.com/DMParker1/tmda-program)  
-- [early-dx-tx](https://github.com/DMParker1/early-dx-tx)  
-- [tm-border-mch](https://github.com/DMParker1/tm-border-mch)  
+- [earth-observation-hub](https://github.com/DMParker1/earth-observation-hub) — How EO became central to my research.  
+- [activity-spaces](https://github.com/DMParker1/activity-spaces) — Multi-place exposure and health relevance.  
+- [METF-mapping](https://github.com/DMParker1/METF-mapping) — Mapping malaria posts & community engagement.  
+- [tMDA-program](https://github.com/DMParker1/tmda-program) — Targeted MDA trials & modeling.  
+- [early-dx-tx](https://github.com/DMParker1/early-dx-tx) — Early access to malaria diagnosis/treatment.  
+- [tm-border-mch](https://github.com/DMParker1/tm-border-mch) — Maternal & child health on the Thai–Myanmar border.  
 
 ### 🌐 Current & Future Directions
 Most ongoing work is now organized under the [**Parker Group**](https://github.com/parker-group).  
