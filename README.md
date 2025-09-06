@@ -124,6 +124,7 @@ flowchart TB
 - **2016+     — EO collaborations:** LOWMRU / [Paul Newton](https://www.ndm.ox.ac.uk/team/paul-newton); EO used in METF & MCH → hub: [earth-observation-hub](https://github.com/DMParker1/earth-observation-hub).  
 - **2017+     — Methods focus:** [SDEtool](https://github.com/parker-group/SDEtool) · [HumMovPatt](https://github.com/SaiTheinThanTun/HumMovPatt) · [earth-observation-howto](https://github.com/parker-group/earth-observation-howto).  
 - **2017+     — UC Irvine:** Founded [Parker Group](https://github.com/parker-group) — open methods & datasets.
+- **2024-2025 — sabbatical:** Spent time in Nepal, Oxford, Liverpool, Cairo, Türkiye - still quite active, dreaming next steps!
 </details>
 
 
