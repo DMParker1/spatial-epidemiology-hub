@@ -118,10 +118,9 @@ flowchart TB
 
 - **1980–2009 — Early years:** I have loved maps since childhood → growing interest in GIS & disease mapping as an undergrad. student *(University of Washington, Seattle)*.  
 - **2009–2014 — Penn State:** Spatial methods with [Stephen Matthews](https://sociology.la.psu.edu/people/stephen-a-matthews/); dissertation on malaria & demography along the Thailand–Myanmar border. My interest in tropical diseases began at UW Seattle, but was cemented at Penn State w/ the ICEMR project and [Liwang Cui's](https://health.usf.edu/medicine/internalmedicine/infectious/faculty/liwangcui) mentorship. 
-- **Pre-METF  — Early Dx/TX:** Long-running [SMRU](https://www.shoklo-unit.com/) strategy; evidence base for later work → repo: [early-dx-tx](https://github.com/DMParker1/early-dx-tx).  
-- **2013–2017 — tMDA trials:** MDA for *P. falciparum*; informed METF → repo: [tmda-program](https://github.com/DMParker1/tmda-program).  
-- **2013–2017 — METF-mapping (postdoc at SMRU/MORU):** Built GIS for malaria posts, logistics, analyses → repo: [METF-mapping](https://github.com/DMParker1/METF-mapping).  
-- **2015–2017 — MCH analyses:** SMRU MCH predates METF; I had several collaborations w/ MCH; leveraged METF GIS → repo: [tm-border-mch](https://github.com/DMParker1/tm-border-mch).  
+- **2013–2017 — tMDA trials:** MDA (mass drug admin.) for *P. falciparum*; informed METF → repo: [tmda-program](https://github.com/DMParker1/tmda-program).  
+- **2013–2017 — Malaria Elimination Task Force (METF)-mapping (postdoc at SMRU/MORU):** Built GIS for malaria posts, logistics, analyses → repo: [METF-mapping](https://github.com/DMParker1/METF-mapping).  
+- **2015–2017 — Maternal/Child Health (MCH) analyses:** SMRU MCH predates METF; I had (and have) several collaborations w/ [Roes McGready](https://www.ndm.ox.ac.uk/team/rose-mcgready); leveraged METF GIS → repo: [tm-border-mch](https://github.com/DMParker1/tm-border-mch).  
 - **2016+     — EO collaborations:** LOWMRU / [Paul Newton](https://www.ndm.ox.ac.uk/team/paul-newton); EO used in METF & MCH → hub: [earth-observation-hub](https://github.com/DMParker1/earth-observation-hub).  
 - **2017+     — Methods focus:** [SDEtool](https://github.com/parker-group/SDEtool) · [HumMovPatt](https://github.com/SaiTheinThanTun/HumMovPatt) · [earth-observation-howto](https://github.com/parker-group/earth-observation-howto).  
 - **2017+     — UC Irvine:** Founded [Parker Group](https://github.com/parker-group) — open methods & datasets.
