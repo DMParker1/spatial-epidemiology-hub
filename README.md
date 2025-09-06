@@ -17,7 +17,8 @@ Early work combining field research, geography (especially geographic reconnaiss
 Incorporating **Earth Observation**, **human movement studies**, and **spatiotemporal methods** to address new public health questions.  
 
 - [activity-spaces](https://github.com/DMParker1/activity-spaces) — Multi-place exposure and its relevance for health.  
-- [SDEtool](https://github.com/parker-group/SDEtool) — R package for standard deviational ellipses.  
+- [Earth Observation How-To](https://github.com/DMParker1/Earth Observation How-To) — Linking Earth observation data to places and times.  
+- [SDEtool](https://github.com/parker-group/SDEtool) — R tool for standard deviational ellipses.  
 
 ### 3. **Interdisciplinary Collaborations**
 Working across epidemiology, vector-borne disease control, climate, and health systems — often in borderland and displacement contexts.  
@@ -116,12 +117,12 @@ flowchart TB
 <summary><b>Show timeline</b></summary>
 
 - **1980–2009 — Early years:** I have loved maps since childhood → growing interest in GIS & disease mapping as an undergrad. student *(University of Washington, Seattle)*.  
-- **2009–2014 — Penn State:** Spatial methods with [Stephen Matthews](https://sociology.la.psu.edu/people/stephen-a-matthews/); dissertation on malaria & demography along the Thailand–Myanmar border.  
-- **Pre-METF  — Early Dx/TX:** Long-running SMRU strategy; evidence base for later work → repo: [early-dx-tx](https://github.com/DMParker1/early-dx-tx).  
+- **2009–2014 — Penn State:** Spatial methods with [Stephen Matthews](https://sociology.la.psu.edu/people/stephen-a-matthews/); dissertation on malaria & demography along the Thailand–Myanmar border. My interest in tropical diseases began at UW Seattle, but was cemented at Penn State w/ the ICEMR project and [Liwang Cui's](https://health.usf.edu/medicine/internalmedicine/infectious/faculty/liwangcui) mentorship. 
+- **Pre-METF  — Early Dx/TX:** Long-running [SMRU](https://www.shoklo-unit.com/) strategy; evidence base for later work → repo: [early-dx-tx](https://github.com/DMParker1/early-dx-tx).  
 - **2013–2017 — tMDA trials:** MDA for *P. falciparum*; informed METF → repo: [tmda-program](https://github.com/DMParker1/tmda-program).  
 - **2013–2017 — METF-mapping (postdoc at SMRU/MORU):** Built GIS for malaria posts, logistics, analyses → repo: [METF-mapping](https://github.com/DMParker1/METF-mapping).  
 - **2015–2017 — MCH analyses:** SMRU MCH predates METF; I had several collaborations w/ MCH; leveraged METF GIS → repo: [tm-border-mch](https://github.com/DMParker1/tm-border-mch).  
-- **2016+     — EO collaborations:** LOWMRU / Paul Newton; EO used in METF & MCH → hub: [earth-observation-hub](https://github.com/DMParker1/earth-observation-hub).  
+- **2016+     — EO collaborations:** LOWMRU / [Paul Newton](https://www.ndm.ox.ac.uk/team/paul-newton); EO used in METF & MCH → hub: [earth-observation-hub](https://github.com/DMParker1/earth-observation-hub).  
 - **2017+     — Methods focus:** [SDEtool](https://github.com/parker-group/SDEtool) · [HumMovPatt](https://github.com/SaiTheinThanTun/HumMovPatt) · [earth-observation-howto](https://github.com/parker-group/earth-observation-howto).  
 - **2017+     — UC Irvine:** Founded [Parker Group](https://github.com/parker-group) — open methods & datasets.
 </details>
