@@ -17,7 +17,7 @@ Early work combining field research, geography (especially geographic reconnaiss
 Incorporating **Earth Observation**, **human movement studies**, and **spatiotemporal methods** to address new public health questions.  
 
 - [activity-spaces](https://github.com/DMParker1/activity-spaces) — Multi-place exposure and its relevance for health.  
-- [Earth Observation How-To](https://github.com/DMParker1/Earth Observation How-To) — Linking Earth observation data to places and times.  
+- [Earth Observation How-To](https://github.com/parker-group/earth-observation-howto) — Linking Earth observation data to places and times.  
 - [SDEtool](https://github.com/parker-group/SDEtool) — R tool for standard deviational ellipses.  
 
 ### 3. **Interdisciplinary Collaborations**
